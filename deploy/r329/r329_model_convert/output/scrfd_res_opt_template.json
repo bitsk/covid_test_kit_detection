@@ -1,0 +1,1474 @@
+{
+    "input.1": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'input.1': {'scale': '130.55767822265625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9999930262565613}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 0, layer_type = OpType.Input, similarity=0.9999930262565613, "
+    },
+    "Conv_0": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_0': {'scale': '26.12128257751465', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9999152421951294}, 'Conv_0biases': {'scale': '12096.555564046372', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_0weights': {'scale': '92.65296173095703', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 1, layer_type = OpType.Convolution, similarity=0.9999152421951294, "
+    },
+    "Conv_2": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_2': {'scale': '14.945855140686035', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9997042417526245}, 'Conv_2biases': {'scale': '5472.44058632059', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_2weights': {'scale': '209.501220703125', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 2, layer_type = OpType.Convolution, similarity=0.9997042417526245, "
+    },
+    "Conv_4": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_4': {'scale': '14.469303131103516', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9994440078735352}, 'Conv_4biases': {'scale': '4936.493532695167', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_4weights': {'scale': '330.29180908203125', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 3, layer_type = OpType.Convolution, similarity=0.9994440078735352, "
+    },
+    "MaxPool_6": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'MaxPool_6': {'scale': '14.469303131103516', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9995974898338318}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 4, layer_type = OpType.Pooling, similarity=0.9995974898338318, "
+    },
+    "Conv_7": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_7': {'scale': '22.408161163330078', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9990162253379822}, 'Conv_7biases': {'scale': '7383.81547376106', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_7weights': {'scale': '510.3089904785156', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 5, layer_type = OpType.Convolution, similarity=0.9990162253379822, "
+    },
+    "Conv_9": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_9': {'scale': '16.991016387939453', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9980424642562866}, 'Conv_9biases': {'scale': '8586.14977454301', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_9weights': {'scale': '383.170654296875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 6, layer_type = OpType.Convolution, similarity=0.9980424642562866, "
+    },
+    "Add_10": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_10': {'scale': '13.472325325012207', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9993435740470886}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 7, layer_type = OpType.Eltwise, similarity=0.9993435740470886, "
+    },
+    "Conv_12": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_12': {'scale': '25.117671966552734', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9988532066345215}, 'Conv_12biases': {'scale': '6989.351762756298', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_12weights': {'scale': '518.7932739257812', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 8, layer_type = OpType.Convolution, similarity=0.9988532066345215, "
+    },
+    "Conv_14": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_14': {'scale': '20.342548370361328', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9981516003608704}, 'Conv_14biases': {'scale': '11147.296099073486', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_14weights': {'scale': '443.80291748046875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 9, layer_type = OpType.Convolution, similarity=0.9981516003608704, "
+    },
+    "Add_15": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_15': {'scale': '13.304798126220703', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9990894794464111}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 10, layer_type = OpType.Eltwise, similarity=0.9990894794464111, "
+    },
+    "Conv_17": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_17': {'scale': '19.87744903564453', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9988048672676086}, 'Conv_17biases': {'scale': '5959.8861071735155', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_17weights': {'scale': '447.95013427734375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 11, layer_type = OpType.Convolution, similarity=0.9988048672676086, "
+    },
+    "Conv_19": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_19': {'scale': '30.323068618774414', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9979903697967529}, 'Conv_19biases': {'scale': '22582.59708641097', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_19weights': {'scale': '1136.09130859375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 12, layer_type = OpType.Convolution, similarity=0.9979903697967529, "
+    },
+    "AveragePool_20": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'AveragePool_20': {'scale': '13.304798126220703', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9993565082550049}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 13, layer_type = OpType.Pooling, similarity=0.9993565082550049, "
+    },
+    "Conv_21": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_21': {'scale': '11.020294189453125', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9988974928855896}, 'Conv_21biases': {'scale': '2012.1174522316433', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_21weights': {'scale': '151.2324676513672', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 14, layer_type = OpType.Convolution, similarity=0.9988974928855896, "
+    },
+    "Add_22": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_22': {'scale': '25.281009674072266', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9986680746078491}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 15, layer_type = OpType.Eltwise, similarity=0.9986680746078491, "
+    },
+    "Conv_24": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_24': {'scale': '35.74908447265625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.99767005443573}, 'Conv_24biases': {'scale': '13120.009241410298', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_24weights': {'scale': '518.9669799804688', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 16, layer_type = OpType.Convolution, similarity=0.99767005443573, "
+    },
+    "Conv_26": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_26': {'scale': '19.552875518798828', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9977773427963257}, 'Conv_26biases': {'scale': '20230.30958806351', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_26weights': {'scale': '565.8972778320312', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 17, layer_type = OpType.Convolution, similarity=0.9977773427963257, "
+    },
+    "Add_27": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_27': {'scale': '21.074766159057617', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9986782670021057}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 18, layer_type = OpType.Eltwise, similarity=0.9986782670021057, "
+    },
+    "Conv_53": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_53': {'scale': '18.04721450805664', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.99892657995224}, 'Conv_53biases': {'scale': '6543.65829511499', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_53weights': {'scale': '310.497314453125', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 19, layer_type = OpType.Convolution, similarity=0.99892657995224, "
+    },
+    "Conv_29": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_29': {'scale': '36.26335906982422', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9987419843673706}, 'Conv_29biases': {'scale': '10037.452297762211', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_29weights': {'scale': '476.2782287597656', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 20, layer_type = OpType.Convolution, similarity=0.9987419843673706, "
+    },
+    "Conv_31": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_31': {'scale': '42.09514236450195', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9982863068580627}, 'Conv_31biases': {'scale': '41165.59240372758', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_31weights': {'scale': '1135.1842041015625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 21, layer_type = OpType.Convolution, similarity=0.9982863068580627, "
+    },
+    "AveragePool_32": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'AveragePool_32': {'scale': '21.074766159057617', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9992835521697998}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 22, layer_type = OpType.Pooling, similarity=0.9992835521697998, "
+    },
+    "Conv_33": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_33': {'scale': '19.560195922851562', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9991336464881897}, 'Conv_33biases': {'scale': '4916.552315004286', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_33weights': {'scale': '233.29095458984375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 23, layer_type = OpType.Convolution, similarity=0.9991336464881897, "
+    },
+    "Add_34": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_34': {'scale': '41.57415771484375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9988564252853394}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 24, layer_type = OpType.Eltwise, similarity=0.9988564252853394, "
+    },
+    "Conv_36": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_36': {'scale': '46.9301872253418', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.998424768447876}, 'Conv_36biases': {'scale': '15177.50470505096', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_36weights': {'scale': '365.0706481933594', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 25, layer_type = OpType.Convolution, similarity=0.998424768447876, "
+    },
+    "Conv_38": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_38': {'scale': '26.07761573791504', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9977583289146423}, 'Conv_38biases': {'scale': '26830.194845780497', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_38weights': {'scale': '571.7044067382812', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 26, layer_type = OpType.Convolution, similarity=0.9977583289146423, "
+    },
+    "Add_39": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_39': {'scale': '35.990089416503906', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9987025260925293}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 27, layer_type = OpType.Eltwise, similarity=0.9987025260925293, "
+    },
+    "Conv_54": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_54': {'scale': '24.976482391357422', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9991448521614075}, 'Conv_54biases': {'scale': '13601.656248124084', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_54weights': {'scale': '377.9278259277344', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 28, layer_type = OpType.Convolution, similarity=0.9991448521614075, "
+    },
+    "Conv_41": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_41': {'scale': '58.64208984375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9983659982681274}, 'Conv_41biases': {'scale': '12044.405014364049', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_41weights': {'scale': '334.658935546875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 29, layer_type = OpType.Convolution, similarity=0.9983659982681274, "
+    },
+    "Conv_43": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_43': {'scale': '36.544681549072266', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9971383810043335}, 'Conv_43biases': {'scale': '60411.8683142066', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_43weights': {'scale': '1030.1793212890625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 30, layer_type = OpType.Convolution, similarity=0.9971383810043335, "
+    },
+    "AveragePool_44": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'AveragePool_44': {'scale': '35.990089416503906', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9992626309394836}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 31, layer_type = OpType.Pooling, similarity=0.9992626309394836, "
+    },
+    "Conv_45": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_45': {'scale': '32.830543518066406', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.999049961566925}, 'Conv_45biases': {'scale': '5406.9606713165995', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_45weights': {'scale': '150.23471069335938', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 32, layer_type = OpType.Convolution, similarity=0.999049961566925, "
+    },
+    "Add_46": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_46': {'scale': '68.0381088256836', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9986497759819031}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 33, layer_type = OpType.Eltwise, similarity=0.9986497759819031, "
+    },
+    "Conv_48": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_48': {'scale': '68.66590881347656', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.998498260974884}, 'Conv_48biases': {'scale': '33492.417275024345', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_48weights': {'scale': '492.2596740722656', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 34, layer_type = OpType.Convolution, similarity=0.998498260974884, "
+    },
+    "Conv_50": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_50': {'scale': '38.94306945800781', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9975576996803284}, 'Conv_50biases': {'scale': '41904.59463549033', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_50weights': {'scale': '610.267822265625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 35, layer_type = OpType.Convolution, similarity=0.9975576996803284, "
+    },
+    "Add_51": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_51': {'scale': '55.800540924072266', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9985910654067993}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 36, layer_type = OpType.Eltwise, similarity=0.9985910654067993, "
+    },
+    "Conv_55": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_55': {'scale': '30.90742301940918', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9992667436599731}, 'Conv_55biases': {'scale': '14161.121660451696', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_55weights': {'scale': '253.7810821533203', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 37, layer_type = OpType.Convolution, similarity=0.9992667436599731, "
+    },
+    "Resize_64": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Resize_64': {'scale': '30.90742301940918', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9992667436599731}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 38, layer_type = OpType.Resize, similarity=0.9992667436599731, "
+    },
+    "Add_65": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_65': {'scale': '20.42435646057129', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9993661642074585}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 39, layer_type = OpType.Eltwise, similarity=0.9993661642074585, "
+    },
+    "Resize_74": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Resize_74': {'scale': '20.42435646057129', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.999366283416748}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 40, layer_type = OpType.Resize, similarity=0.999366283416748, "
+    },
+    "Add_75": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_75': {'scale': '13.474732398986816', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9990430474281311}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 41, layer_type = OpType.Eltwise, similarity=0.9990430474281311, "
+    },
+    "Conv_76": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_76': {'scale': '10.668550491333008', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9990750551223755}, 'Conv_76biases': {'scale': '7566.452074987465', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_76weights': {'scale': '561.5289306640625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 42, layer_type = OpType.Convolution, similarity=0.9990750551223755, "
+    },
+    "Conv_85": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_85': {'scale': '55.14214324951172', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9989581108093262}, 'Conv_85biases': {'scale': '6954.0293565577595', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_85weights': {'scale': '651.8251342773438', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 43, layer_type = OpType.Convolution, similarity=0.9989581108093262, "
+    },
+    "Conv_87": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_87': {'scale': '63.78314971923828', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9985597729682922}, 'Conv_87biases': {'scale': '19450.25682092132', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_87weights': {'scale': '352.72943115234375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 44, layer_type = OpType.Convolution, similarity=0.9985597729682922, "
+    },
+    "Conv_89": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_89': {'scale': '18.498899459838867', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.999993085861206}, 'Conv_89biases': {'scale': '218599.2426694557', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_89weights': {'scale': '3427.2255859375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 45, layer_type = OpType.Convolution, similarity=0.999993085861206, "
+    },
+    "Reshape_98": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_98': {'scale': '18.498899459838867', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.999993085861206}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 46, layer_type = OpType.Reshape, similarity=0.999993085861206, "
+    },
+    "Conv_77": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_77': {'scale': '5.511885166168213', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9996771216392517}, 'Conv_77biases': {'scale': '8545.483925139997', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_77weights': {'scale': '418.396728515625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 47, layer_type = OpType.Convolution, similarity=0.9996771216392517, "
+    },
+    "Conv_79": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_79': {'scale': '5.8198933601379395', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9988468885421753}, 'Conv_79biases': {'scale': '5986.386487509357', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_79weights': {'scale': '561.1246337890625', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 48, layer_type = OpType.Convolution, similarity=0.9988468885421753, "
+    },
+    "Add_80": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_80': {'scale': '4.451772212982178', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9994997978210449}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 49, layer_type = OpType.Eltwise, similarity=0.9994997978210449, "
+    },
+    "Conv_83": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_83': {'scale': '2.4182939529418945', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9993254542350769}, 'Conv_83biases': {'scale': '1856.489411362927', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_83weights': {'scale': '417.0225524902344', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 50, layer_type = OpType.Convolution, similarity=0.9993254542350769, "
+    },
+    "Conv_108": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_108': {'scale': '41.62757110595703', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9987067580223083}, 'Conv_108biases': {'scale': '12240.554989131633', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_108weights': {'scale': '5061.64892578125', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 51, layer_type = OpType.Convolution, similarity=0.9987067580223083, "
+    },
+    "Conv_110": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_110': {'scale': '43.998023986816406', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9988110661506653}, 'Conv_110biases': {'scale': '16332.96778190136', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_110weights': {'scale': '392.359375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 52, layer_type = OpType.Convolution, similarity=0.9988110661506653, "
+    },
+    "Conv_112": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_112': {'scale': '8.365211486816406', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9998924732208252}, 'Conv_112biases': {'scale': '9545.111354677007', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_112weights': {'scale': '216.944091796875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 53, layer_type = OpType.Convolution, similarity=0.9998924732208252, "
+    },
+    "Reshape_121": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_121': {'scale': '8.365211486816406', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9998924732208252}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 54, layer_type = OpType.Reshape, similarity=0.9998924732208252, "
+    },
+    "Conv_78": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_78': {'scale': '12.65322208404541', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9997367262840271}, 'Conv_78biases': {'scale': '17590.24560554244', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_78weights': {'scale': '569.1268920898438', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 55, layer_type = OpType.Convolution, similarity=0.9997367262840271, "
+    },
+    "Conv_81": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_81': {'scale': '1.8305896520614624', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9996297955513}, 'Conv_81biases': {'scale': '1655.2890881599305', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_81weights': {'scale': '371.8269958496094', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 56, layer_type = OpType.Convolution, similarity=0.9996297955513, "
+    },
+    "Add_82": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Add_82': {'scale': '1.7688418626785278', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9996196627616882}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 57, layer_type = OpType.Eltwise, similarity=0.9996196627616882, "
+    },
+    "Conv_84": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_84': {'scale': '0.5610997080802917', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9994401931762695}, 'Conv_84biases': {'scale': '409.98551158012197', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_84weights': {'scale': '231.78189086914062', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 58, layer_type = OpType.Convolution, similarity=0.9994401931762695, "
+    },
+    "Conv_131": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_131': {'scale': '53.829776763916016', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9991733431816101}, 'Conv_131biases': {'scale': '10859.921561111812', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_131weights': {'scale': '19354.708984375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 59, layer_type = OpType.Convolution, similarity=0.9991733431816101, "
+    },
+    "Conv_133": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_133': {'scale': '65.66631317138672', 'zerop': '0.0', 'qbits': '8', 'dtype': 'uint8', 'qmin': '0', 'qmax': '255', 'qinvariant': 'False', 'similarity': 0.9994027018547058}, 'Conv_133biases': {'scale': '20967.28451287246', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_133weights': {'scale': '389.5108947753906', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 60, layer_type = OpType.Convolution, similarity=0.9994027018547058, "
+    },
+    "Conv_135": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_135': {'scale': '12.51407241821289', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9999606609344482}, 'Conv_135biases': {'scale': '11813.617831865558', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_135weights': {'scale': '179.90377807617188', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 61, layer_type = OpType.Convolution, similarity=0.9999606609344482, "
+    },
+    "Reshape_144": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_144': {'scale': '12.51407241821289', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9999606609344482}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 62, layer_type = OpType.Reshape, similarity=0.9999606609344482, "
+    },
+    "Conv_90": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_90': {'scale': '324.2726745605469', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9983237981796265}, 'Conv_90biases': {'scale': '309072.71299928427', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_90weights': {'scale': '4845.6796875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 63, layer_type = OpType.Convolution, similarity=0.9983237981796265, "
+    },
+    "Reshape_103": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_103': {'scale': '324.2726745605469', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9983237981796265}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 64, layer_type = OpType.Reshape, similarity=0.9983237981796265, "
+    },
+    "Conv_113": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_113': {'scale': '7.093092918395996', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9998980760574341}, 'Conv_113biases': {'scale': '10291.614876492997', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_113weights': {'scale': '233.9108428955078', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 65, layer_type = OpType.Convolution, similarity=0.9998980760574341, "
+    },
+    "Reshape_126": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_126': {'scale': '7.093092918395996', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9998980760574341}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 66, layer_type = OpType.Reshape, similarity=0.9998980760574341, "
+    },
+    "Conv_136": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_136': {'scale': '9.471868515014648', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.999920666217804}, 'Conv_136biases': {'scale': '12156.26180033083', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_136weights': {'scale': '185.12173461914062', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 67, layer_type = OpType.Convolution, similarity=0.999920666217804, "
+    },
+    "Reshape_149": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_149': {'scale': '9.471868515014648', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.999920666217804}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 68, layer_type = OpType.Reshape, similarity=0.999920666217804, "
+    },
+    "Conv_91": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_91': {'scale': '340.68255615234375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9977248311042786}, 'Conv_91biases': {'scale': '275624.43064182997', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_91weights': {'scale': '4321.2734375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 69, layer_type = OpType.Convolution, similarity=0.9977248311042786, "
+    },
+    "Reshape_107": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_107': {'scale': '340.68255615234375', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9977248311042786}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 70, layer_type = OpType.Reshape, similarity=0.9977248311042786, "
+    },
+    "Conv_114": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_114': {'scale': '18.954240798950195', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9991515874862671}, 'Conv_114biases': {'scale': '11543.225596046308', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_114weights': {'scale': '262.3578186035156', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 71, layer_type = OpType.Convolution, similarity=0.9991515874862671, "
+    },
+    "Reshape_130": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_130': {'scale': '18.954240798950195', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9991515874862671}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 72, layer_type = OpType.Reshape, similarity=0.9991515874862671, "
+    },
+    "Conv_137": {
+        "with_winograd": false,
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Conv_137': {'scale': '13.092254638671875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9996115565299988}, 'Conv_137biases': {'scale': '16440.267303100554', 'zerop': '0', 'qbits': '32', 'dtype': 'int32', 'qmin': '-2147483648', 'qmax': '2147483647', 'qinvariant': 'False'}, 'Conv_137weights': {'scale': '250.36074829101562', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-127', 'qmax': '127', 'qinvariant': 'False'}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 73, layer_type = OpType.Convolution, similarity=0.9996115565299988, "
+    },
+    "Reshape_153": {
+        "histc_bins": 2048,
+        "impl_mode": "strict_mode",
+        "layer_top_type_original": [
+            "float32"
+        ],
+        "lut_items_in_bits": 8,
+        "optimization_info": "{}",
+        "q_bits_activation": 8,
+        "q_bits_bias": 32,
+        "q_bits_weight": 8,
+        "q_mode_activation": "per_tensor_symmetric_full_range",
+        "q_mode_weight": "per_tensor_symmetric_restricted_range",
+        "q_strategy_activation": "mean",
+        "q_strategy_weight": "extrema",
+        "quantization_info": "{'Reshape_153': {'scale': '13.092254638671875', 'zerop': '0.0', 'qbits': '8', 'dtype': 'int8', 'qmin': '-128', 'qmax': '127', 'qinvariant': 'False', 'similarity': 0.9996115565299988}}",
+        "running_statistic_momentum": 0.9,
+        "brief_info": "layer_id = 74, layer_type = OpType.Reshape, similarity=0.9996115565299988, "
+    }
+}
